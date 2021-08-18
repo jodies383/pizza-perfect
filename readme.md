@@ -13,10 +13,12 @@ This journey have a few chapters. Check back regularly for updates.
 
 Using the Handlebars Templates in the views folder create these routes:
 
-* `/pizzas` a **get** route to show a list of pizzas
-* `/pizza/add` a **get** route that contains a form - that posts to `/pizza/add/`
-* `/pizza/add/` a **post** route for now let is redirect to the `/pizzas` get route.
-* `/pizzas/edit/:pizza_id` a **get** route for editing pizzas - for now display the id passed into the route.
+Route name | Description
+--------|--------------------------
+`/pizzas`| a **get** route to show a list of pizzas
+`/pizza/add` | a **get** route that contains a form - that posts to `/pizza/add/`
+ `/pizza/add/` | a **post** route for now let is redirect to the `/pizzas` get route.
+`/pizzas/edit/:pizza_id` | a **get** route for editing pizzas - for now display the `id` passed into the route in the template.
 
 ## Adding data to the routes
 
