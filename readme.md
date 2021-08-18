@@ -25,7 +25,9 @@ Route name | Description
 `/pizzas`| a **get** route to show a list of pizzas
 `/pizza/add` | a **get** route that contains a form - that posts to `/pizza/add/`
  `/pizza/add/` | a **post** route for now let is redirect to the `/pizzas` get route.
-`/pizzas/edit/:pizza_id` | a **get** route for editing pizzas - for now display the `id` passed into the route in the template.
+`/pizza/edit/:pizza_id` | a **get** route for editing pizzas - for now display the `id` passed into the route in the template. Post to `/pizzas/edit`.
+`/pizza/edit` | a **post** route for updating a pizza - for now display the `id` passed into the route in the template. Redirect to `/pizzas` for now.
+
 
 When you are done your page should flow from the `/pizzas` route to the pizza `add` and `edit` screens. No data should be captured yet.
 
