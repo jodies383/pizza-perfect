@@ -1,7 +1,7 @@
 {
   "name": "routing-pizzas",
   "version": "1.0.0",
-  "description": "",
+  "description": "This journey have a few chapters. Check back regularly for updates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodies383/pizza-perfect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jodies383/pizza-perfect/issues"
+  },
+  "homepage": "https://github.com/jodies383/pizza-perfect#readme"
 }
