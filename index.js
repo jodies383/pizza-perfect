@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.static('public'));
 
+// add your routes here...
 
 const PORT = process.env.PORT || 7008;
 app.listen(PORT, function(){
