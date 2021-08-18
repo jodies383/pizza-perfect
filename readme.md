@@ -9,6 +9,13 @@ This journey have a few chapters. Check back regularly for updates.
 * after that you will store orders in a database,
 * then you will add pizza delivery support
 
+While doing this let's reflect on:
+
+* What is a route in ExpressJS?
+* What is a GET route?
+* What is a POST route?
+* What is `req` and `res` in the route handlers?
+
 ## Creating routes
 
 Using the Handlebars Templates in the views folder create these routes:
@@ -19,6 +26,10 @@ Route name | Description
 `/pizza/add` | a **get** route that contains a form - that posts to `/pizza/add/`
  `/pizza/add/` | a **post** route for now let is redirect to the `/pizzas` get route.
 `/pizzas/edit/:pizza_id` | a **get** route for editing pizzas - for now display the `id` passed into the route in the template.
+
+When you are done your page should flow from the `/pizzas` route to the pizza `add` and `edit` screens. No data should be captured yet.
+
+Use `res.render` to should templates and `res.redirect` to move to the next route. **Note** that you can't redirect to a `post` route.
 
 ## Adding data to the routes
 
